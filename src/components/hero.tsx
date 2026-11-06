@@ -116,10 +116,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <a href="#showreel" className="hero-scroll mono" aria-label="쇼릴로 내려가기">
-        SCROLL
-        <span className="hero-scroll-bar" aria-hidden />
-      </a>
     </section>
   );
 }

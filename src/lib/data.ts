@@ -27,6 +27,8 @@ export type Work = {
   pairsNote?: string;
   sheets?: Img[];
   sheetsNote?: string;
+  /** 상세 장면 격자 (작품마다 12장, 미디어테라피 6장). 콘티가 있는 장면은 sketch·caption */
+  scenes: { img: Img; sketch?: Img; caption?: string }[];
 };
 export type Profile = {
   name_ko: string;

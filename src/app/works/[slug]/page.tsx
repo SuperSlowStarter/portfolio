@@ -36,8 +36,7 @@ export default async function WorkPage({ params }: PageProps<"/works/[slug]">) {
   const g = getWork(slug);
   if (!g) notFound();
   const { work: w, next, prev, index } = g;
-  // 장면: 정리된 장면 이미지 → 콘티가 있는 장면 (콘티는 작은 카드로만)
-  const tiles: Tile[] = [...w.frames.map((img) => ({ img })), ...(w.pairs ?? []).map((p) => ({ img: p.final, sketch: p.sketch, caption: p.caption }))];
+  const tiles: Tile[] = w.scenes;
 
   return (
     <article className="wd">
@@ -97,7 +96,7 @@ export default async function WorkPage({ params }: PageProps<"/works/[slug]">) {
           <Reveal className="sec-head sm sg-head">
             <h2 className="sec-title" id="scenes-title"><Line>Scenes</Line></h2>
             <p className="sec-desc"><Line d={80}>{w.pairsNote ?? w.sheetsNote ?? "장면을 누르면 크게 볼 수 있습니다."}</Line></p>
-            {w.pairs && <p className="sg-hint mono"><Line d={140}>STORYBOARD 표시가 있는 장면은 마우스를 올리면 콘티가 함께 보입니다</Line></p>}
+            {w.pairs && <p className="sg-hint mono"><Line d={140}>일부 장면은 마우스를 올리면 콘티가 함께 보입니다</Line></p>}
           </Reveal>
           <SceneGrid tiles={tiles} sheets={w.sheets} title={w.title} />
         </section>

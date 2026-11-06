@@ -4,8 +4,8 @@
   "name_en": "Lee Daegun",
   "email": "daeguni01@naver.com",
   "intro": [
-   "낯선 일도 일단 부딪혀 보는 편입니다.",
-   "그래픽디자인과 영상 편집으로 시작했는데, 화면 속 요소를 직접 움직여 보고 싶어서 모션그래픽과 3D로 범위를 넓혔습니다. 요즘은 Unreal Engine 같은 실시간 3D에 관심이 많습니다."
+   "보이는 걸 움직여서, 한 번에 알아듣게.",
+   "그래픽디자인에서 출발해 모션그래픽과 3D, Unreal Engine 실시간 3D까지 다룹니다."
   ],
   "tools_main": "After Effects, Premiere Pro, Photoshop, Illustrator, Blender",
   "tools_sub": "Unreal Engine, Unity, 3ds Max, Substance Painter, Figma",
@@ -258,7 +258,141 @@
      "caption": "Okay 말풍선"
     }
    ],
-   "pairsNote": "12컷 콘티를 먼저 그리고, 랩의 강세에 맞춰 컷마다 움직임을 정했습니다."
+   "pairsNote": "12컷 콘티를 먼저 그리고, 랩의 강세에 맞춰 컷마다 움직임을 정했습니다.",
+   "scenes": [
+    {
+     "img": {
+      "src": "/img/rlyp_22.jpg",
+      "w": 960,
+      "h": 519
+     },
+     "sketch": {
+      "src": "/img/sb_rly_r0c0.jpg",
+      "w": 355,
+      "h": 197
+     },
+     "caption": "말하고 싶어 · CRT"
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_17.jpg",
+      "w": 960,
+      "h": 536
+     },
+     "sketch": {
+      "src": "/img/sb_rly_r0c1.jpg",
+      "w": 354,
+      "h": 197
+     },
+     "caption": "BM · Exposure + Invert"
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_18.jpg",
+      "w": 960,
+      "h": 543
+     },
+     "sketch": {
+      "src": "/img/sb_rly_r0c2.jpg",
+      "w": 354,
+      "h": 197
+     },
+     "caption": "타이틀 · Trim Path"
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_09.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_rly_r0c3.jpg",
+      "w": 355,
+      "h": 197
+     },
+     "caption": "A-SA 사진 아치"
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_13.jpg",
+      "w": 960,
+      "h": 490
+     },
+     "sketch": {
+      "src": "/img/sb_rly_r1c1.jpg",
+      "w": 354,
+      "h": 197
+     },
+     "caption": "오늘 너의 · 타이핑"
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_06.jpg",
+      "w": 960,
+      "h": 536
+     },
+     "sketch": {
+      "src": "/img/sb_rly_r1c2.jpg",
+      "w": 354,
+      "h": 197
+     },
+     "caption": "허락해 · Blur"
+    },
+    {
+     "img": {
+      "src": "/img/rly_x16_2.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_rly_r2c0.jpg",
+      "w": 355,
+      "h": 198
+     },
+     "caption": "OK 표지판"
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_16.jpg",
+      "w": 960,
+      "h": 536
+     },
+     "sketch": {
+      "src": "/img/sb_rly_r2c1.jpg",
+      "w": 354,
+      "h": 198
+     },
+     "caption": "Okay 말풍선"
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_10.jpg",
+      "w": 1280,
+      "h": 721
+     }
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_11.jpg",
+      "w": 1280,
+      "h": 721
+     }
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_07.jpg",
+      "w": 1280,
+      "h": 716
+     }
+    },
+    {
+     "img": {
+      "src": "/img/rlyp_05.jpg",
+      "w": 1280,
+      "h": 711
+     }
+    }
+   ]
   },
   {
    "key": "momentum",
@@ -412,7 +546,141 @@
      "caption": "#8 INDEF"
     }
    ],
-   "pairsNote": "손으로 그린 8컷 콘티에서 출발했습니다. 만들면서 순서와 연출이 바뀐 장면도 있습니다."
+   "pairsNote": "손으로 그린 8컷 콘티에서 출발했습니다. 만들면서 순서와 연출이 바뀐 장면도 있습니다.",
+   "scenes": [
+    {
+     "img": {
+      "src": "/img/mom_t003_0.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mom_1c.jpg",
+      "w": 960,
+      "h": 594
+     },
+     "caption": "#1 실이 감기며 원 생성"
+    },
+    {
+     "img": {
+      "src": "/img/mom_x16_0.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "sketch": {
+      "src": "/img/sb_mom_2c.jpg",
+      "w": 960,
+      "h": 671
+     },
+     "caption": "#2 회전"
+    },
+    {
+     "img": {
+      "src": "/img/mom_t010_0.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mom_3c.jpg",
+      "w": 960,
+      "h": 621
+     },
+     "caption": "#3 착시 팽이"
+    },
+    {
+     "img": {
+      "src": "/img/mom_t015_5.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mom_4c.jpg",
+      "w": 960,
+      "h": 713
+     },
+     "caption": "#4 만화경"
+    },
+    {
+     "img": {
+      "src": "/img/momentum_018_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mom_5c.jpg",
+      "w": 960,
+      "h": 541
+     },
+     "caption": "#5 규칙과 기대를 보는 눈"
+    },
+    {
+     "img": {
+      "src": "/img/mom_t010_5.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mom_6c.jpg",
+      "w": 926,
+      "h": 825
+     },
+     "caption": "#6 템포가 느려지는 팽이"
+    },
+    {
+     "img": {
+      "src": "/img/momentum_024_00.jpg",
+      "w": 1920,
+      "h": 1080
+     },
+     "sketch": {
+      "src": "/img/sb_mom_7c.jpg",
+      "w": 960,
+      "h": 603
+     },
+     "caption": "#7 멈췄지만 다시 감는 끈"
+    },
+    {
+     "img": {
+      "src": "/img/momentum_033_80.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "sketch": {
+      "src": "/img/sb_mom_8c.jpg",
+      "w": 960,
+      "h": 676
+     },
+     "caption": "#8 INDEF"
+    },
+    {
+     "img": {
+      "src": "/img/mom_x1_0.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/momentum_012_80.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/momentum_w026_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/momentum_w031_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    }
+   ]
   },
   {
    "key": "takeit",
@@ -461,6 +729,92 @@
      "w": 1280,
      "h": 720
     }
+   ],
+   "scenes": [
+    {
+     "img": {
+      "src": "/img/takeit_w002_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_011_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_017_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_w018_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_w021_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_w026_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_w028_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_w031_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_w036_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_w041_80.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_045_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/takeit_w047_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    }
    ]
   },
   {
@@ -507,6 +861,92 @@
      "src": "/img/mukbit_130_00.jpg",
      "w": 1280,
      "h": 720
+    }
+   ],
+   "scenes": [
+    {
+     "img": {
+      "src": "/img/mukbit_w008_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_w014_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_w025_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_033_80.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_047_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_w075_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_w082_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_098_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_w103_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_w117_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_w126_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mukbit_130_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
     }
    ]
   },
@@ -658,7 +1098,129 @@
      "caption": "Scene 10 · 창을 지나며 바뀌는 모습"
     }
    ],
-   "pairsNote": "13개 장면을 프레임 단위로 나눈 장면표를 먼저 만들고, 장면마다 빛이 들어오는 방향을 콘티로 정했습니다."
+   "pairsNote": "13개 장면을 프레임 단위로 나눈 장면표를 먼저 만들고, 장면마다 빛이 들어오는 방향을 콘티로 정했습니다.",
+   "scenes": [
+    {
+     "img": {
+      "src": "/img/dokkaebi_003_00.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "sketch": {
+      "src": "/img/sb_dk_r0c0.jpg",
+      "w": 375,
+      "h": 209
+     },
+     "caption": "Scene 1 · 창에 빛이 든다"
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_w004_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_016_50.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "sketch": {
+      "src": "/img/sb_dk_r0c3.jpg",
+      "w": 378,
+      "h": 209
+     },
+     "caption": "Scene 4 · 문을 열고 나오는 도깨비"
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_w020_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_024_00.jpg",
+      "w": 1920,
+      "h": 1080
+     },
+     "sketch": {
+      "src": "/img/sb_dk_r1c1.jpg",
+      "w": 377,
+      "h": 210
+     },
+     "caption": "Scene 7 · 바닷가의 두 사람"
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_w027_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_032_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_dk_r1c3.jpg",
+      "w": 378,
+      "h": 210
+     },
+     "caption": "Scene 8 · 뒤로 넘어가는 배경"
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_035_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_041_00.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "sketch": {
+      "src": "/img/sb_dk_r2c1.jpg",
+      "w": 377,
+      "h": 210
+     },
+     "caption": "Scene 10 · 창을 지나며 바뀌는 모습"
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_w043_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_046_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_dk_r2c0.jpg",
+      "w": 375,
+      "h": 210
+     },
+     "caption": "Scene 9 · 저승사자의 실루엣"
+    },
+    {
+     "img": {
+      "src": "/img/dokkaebi_w057_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    }
+   ]
   },
   {
    "key": "michu",
@@ -723,7 +1285,93 @@
      "h": 1189
     }
    ],
-   "sheetsNote": "콘티를 손으로 먼저 그렸습니다. 심박수 숫자가 내려가는 오프닝, 땅을 짚는 손과 신발끈의 매치컷, 향교 문고리에서 기타 울림구멍으로 넘어가는 원형 매치컷까지의 구간입니다."
+   "sheetsNote": "콘티를 손으로 먼저 그렸습니다. 심박수 숫자가 내려가는 오프닝, 땅을 짚는 손과 신발끈의 매치컷, 향교 문고리에서 기타 울림구멍으로 넘어가는 원형 매치컷까지의 구간입니다.",
+   "scenes": [
+    {
+     "img": {
+      "src": "/img/michu_w002_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_w008_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_028_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_w038_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_w048_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_055_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_w066_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_w072_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_092_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_w112_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_138_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/michu_w146_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    }
+   ]
   },
   {
    "key": "mhga",
@@ -829,7 +1477,129 @@
      "caption": "#6 증기기관"
     }
    ],
-   "pairsNote": "장면마다 흑백 러프를 먼저 그려 구도와 빛의 위치를 잡았습니다."
+   "pairsNote": "장면마다 흑백 러프를 먼저 그려 구도와 빛의 위치를 잡았습니다.",
+   "scenes": [
+    {
+     "img": {
+      "src": "/img/mhga_003_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mhga_1.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#1 유성이 떨어지는 하늘"
+    },
+    {
+     "img": {
+      "src": "/img/mhga_009_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mhga_2.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#2 원시"
+    },
+    {
+     "img": {
+      "src": "/img/mhga_w011_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mhga_017_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mhga_3.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#3 불의 발견"
+    },
+    {
+     "img": {
+      "src": "/img/mhga_w021_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mhga_025_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mhga_4.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#4 종이의 발명"
+    },
+    {
+     "img": {
+      "src": "/img/mhga_029_50.jpg",
+      "w": 1920,
+      "h": 1080
+     },
+     "sketch": {
+      "src": "/img/sb_mhga_5.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#5 문자의 발명"
+    },
+    {
+     "img": {
+      "src": "/img/mhga_037_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "sketch": {
+      "src": "/img/sb_mhga_6.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#6 증기기관"
+    },
+    {
+     "img": {
+      "src": "/img/mhga_w052_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mhga_w062_00.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mhga_w069_60.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/mhga_w074_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    }
+   ]
   },
   {
    "key": "therapy",
@@ -864,6 +1634,50 @@
      "src": "/img/therapy_001_50.jpg",
      "w": 1280,
      "h": 720
+    }
+   ],
+   "scenes": [
+    {
+     "img": {
+      "src": "/img/therapy_w000_20.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/therapy_w000_35.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/therapy_000_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/therapy_w000_65.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/therapy_w000_85.jpg",
+      "w": 1280,
+      "h": 720
+     }
+    },
+    {
+     "img": {
+      "src": "/img/therapy_001_50.jpg",
+      "w": 1280,
+      "h": 720
+     }
     }
    ]
   }
