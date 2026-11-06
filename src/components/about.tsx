@@ -57,8 +57,8 @@ export function About() {
                 title="툴"
                 d={340}
                 rows={[
-                  { date: "주로 씀", main: P.tools_main },
-                  { date: "다룰 수 있음", main: P.tools_sub },
+                  { date: "Main", main: P.tools_main },
+                  { date: "Sub", main: P.tools_sub },
                 ]}
               />
             </div>

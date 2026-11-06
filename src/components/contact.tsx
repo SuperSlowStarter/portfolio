@@ -24,7 +24,6 @@ export function Contact() {
     <section id="contact" className="sec contact" data-tl="contact" data-tl-label="END" data-tl-sec="0">
       <div className="wrap">
         <Reveal className="ct">
-          <Line className="sec-no mono">END</Line>
           <h2 className="ct-title">
             <Line d={80}>감사합니다</Line>
           </h2>

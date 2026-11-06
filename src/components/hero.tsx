@@ -74,14 +74,12 @@ export function Hero() {
   return (
     <section className="hero" id="top" data-tl="intro" data-tl-label="INTRO" data-tl-sec="0">
       <div className="wrap hero-in">
-        <Reveal className="hero-top mono">
-          <Line>모션그래픽 포트폴리오 2026</Line>
-          <Line d={80}><a href={`mailto:${profile.email}`}>{profile.email}</a></Line>
-        </Reveal>
-
         <Reveal as="h1" className="hero-title" threshold={0}>
           <Line d={120}>알아듣는 건 쉽게,</Line>
-          <Line d={220}>보이는 건 낯설게.</Line>
+          <Line d={220}>
+            보이는 건 <em className="hero-em">낯설게.</em>
+            <span className="hero-caret" aria-hidden />
+          </Line>
         </Reveal>
 
         <Reveal className="hero-sub" threshold={0}>

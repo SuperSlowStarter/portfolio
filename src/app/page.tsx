@@ -7,17 +7,21 @@ import { Timeline } from "@/components/timeline";
 import { Line, Reveal } from "@/components/reveal";
 import { works } from "@/lib/data";
 
+/** 홈: 첫 화면 → 쇼릴 → About → Works → 연락처 (아래 고정 타임라인은 이 순서를 그대로 따른다) */
 export default function Home() {
   return (
     <>
       <Hero />
       <ShowreelSection />
+      <About />
       <section id="work" className="sec work" aria-labelledby="work-title">
         <div className="wrap">
           <Reveal className="sec-head">
-            <Line className="sec-no mono">WORK</Line>
-            <h2 className="sec-title" id="work-title"><Line d={60}>작업 {works.length}개</Line></h2>
-            <p className="sec-desc"><Line d={140}>영상을 누르면 콘티와 제작 과정까지 볼 수 있습니다.</Line></p>
+            <h2 className="sec-title sec-title-xl" id="work-title">
+              <Line>
+                Works<sup className="sec-count mono">{String(works.length).padStart(2, "0")}</sup>
+              </Line>
+            </h2>
           </Reveal>
           <div className="wlist">
             {works.map((w, i) => (
@@ -26,7 +30,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <About />
       <Contact />
       <Timeline />
     </>

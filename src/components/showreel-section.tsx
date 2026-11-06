@@ -14,7 +14,6 @@ export function ShowreelSection() {
         <Reveal className="sec-head">
           <Line className="sec-no mono">00</Line>
           <h2 className="sec-title"><Line d={60}>Showreel 2026</Line></h2>
-          <p className="sec-desc"><Line d={140}>여덟 작업을 1분으로 엮었습니다. 소리를 켜고 보시길 권합니다.</Line></p>
         </Reveal>
       </div>
       <div className="reel-stage" ref={grow}>

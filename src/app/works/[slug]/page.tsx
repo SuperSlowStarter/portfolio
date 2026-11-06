@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { CSSProperties } from "react";
 import { InlinePlayer } from "@/components/inline-player";
 import { Line, Reveal } from "@/components/reveal";
 import { Meta } from "@/components/work-row";
-import { FilmStrip } from "@/components/film-strip";
-import { Compare } from "@/components/compare";
+import { SceneGrid, type Tile } from "@/components/scene-grid";
 import { NextWork } from "@/components/next-work";
 import { ArrowIcon } from "@/components/icons";
 import { getWork, works } from "@/lib/data";
@@ -38,6 +36,8 @@ export default async function WorkPage({ params }: PageProps<"/works/[slug]">) {
   const g = getWork(slug);
   if (!g) notFound();
   const { work: w, next, prev, index } = g;
+  // 장면: 정리된 장면 이미지 → 콘티가 있는 장면 (콘티는 작은 카드로만)
+  const tiles: Tile[] = [...w.frames.map((img) => ({ img })), ...(w.pairs ?? []).map((p) => ({ img: p.final, sketch: p.sketch, caption: p.caption }))];
 
   return (
     <article className="wd">
@@ -92,42 +92,16 @@ export default async function WorkPage({ params }: PageProps<"/works/[slug]">) {
         </Reveal>
       </div>
 
-      {w.frames.length > 0 && <FilmStrip frames={[w.hero, ...w.frames]} title={w.title} />}
-
-      {w.pairs && (
-        <section className="wd-sec wrap" aria-labelledby="sb-title">
-          <Reveal className="sec-head sm">
-            <Line className="sec-no mono">STORYBOARD</Line>
-            <h2 className="sec-title" id="sb-title"><Line d={60}>콘티 → 완성</Line></h2>
-            <p className="sec-desc"><Line d={120}>가운데 손잡이를 좌우로 끌어 보세요.</Line></p>
+      {tiles.length > 0 && (
+        <section className="wd-sec wrap" aria-labelledby="scenes-title">
+          <Reveal className="sec-head sm sg-head">
+            <h2 className="sec-title" id="scenes-title"><Line>Scenes</Line></h2>
+            <p className="sec-desc"><Line d={80}>{w.pairsNote ?? w.sheetsNote ?? "장면을 누르면 크게 볼 수 있습니다."}</Line></p>
+            {w.pairs && <p className="sg-hint mono"><Line d={140}>STORYBOARD 표시가 있는 장면은 마우스를 올리면 콘티가 함께 보입니다</Line></p>}
           </Reveal>
-          <Reveal threshold={0.1}>
-            <div className="rv-media">
-              <Compare pairs={w.pairs} note={w.pairsNote} title={w.title} />
-            </div>
-          </Reveal>
+          <SceneGrid tiles={tiles} sheets={w.sheets} title={w.title} />
         </section>
       )}
-
-      {w.sheets && (
-        <section className="wd-sec" aria-labelledby="sheet-title">
-          <div className="wrap">
-            <Reveal className="sec-head sm">
-              <Line className="sec-no mono">HAND-DRAWN</Line>
-              <h2 className="sec-title" id="sheet-title"><Line d={60}>손그림 콘티</Line></h2>
-              {w.sheetsNote && <p className="sec-desc"><Line d={120}>{w.sheetsNote}</Line></p>}
-            </Reveal>
-          </div>
-          <Reveal className="sheets" threshold={0.1}>
-            {w.sheets.map((s, i) => (
-              <figure key={s.src} className="sheet rv" style={{ "--d": i * 100 } as CSSProperties}>
-                <Image src={s.src} width={s.w} height={s.h} alt={`${w.title} 손그림 콘티 ${i + 1}`} sizes="(min-width: 1024px) 30vw, 78vw" />
-              </figure>
-            ))}
-          </Reveal>
-        </section>
-      )}
-
       <NextWork next={next} prev={prev} />
     </article>
   );
