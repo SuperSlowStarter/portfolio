@@ -1,0 +1,878 @@
+{
+ "profile": {
+  "name_ko": "이대건",
+  "name_en": "Lee Daegun",
+  "email": "daeguni01@naver.com",
+  "intro": [
+   "낯선 일도 일단 부딪혀 보는 편입니다.",
+   "그래픽디자인과 영상 편집으로 시작했는데, 화면 속 요소를 직접 움직여 보고 싶어서 모션그래픽과 3D로 범위를 넓혔습니다. 요즘은 Unreal Engine 같은 실시간 3D에 관심이 많습니다."
+  ],
+  "tools_main": "After Effects, Premiere Pro, Photoshop, Illustrator, Blender",
+  "tools_sub": "Unreal Engine, Unity, 3ds Max, Substance Painter, Figma",
+  "education": [
+   {
+    "date": "2023.03 – 2027.02",
+    "text": "청운대학교 멀티미디어학과 (졸업예정, 학점 4.4/4.5)"
+   },
+   {
+    "date": "2026.07 – 2026.09",
+    "text": "S1아카데미 3ds Max 과정 수료"
+   }
+  ],
+  "experience": [
+   {
+    "date": "2026.05 – 2026.08",
+    "title": "주안영상미디어센터 인턴",
+    "desc": "홍보영상·모션그래픽 제작, 카드뉴스·포스터, VR·스튜디오 프로그램 운영"
+   },
+   {
+    "date": "2025.12 – 2026.02",
+    "title": "㈜블루트리엔터 인턴",
+    "desc": "홍보영상 기획·촬영·편집"
+   },
+   {
+    "date": "2025.06 – 2025.08",
+    "title": "㈜다인리더스 인턴",
+    "desc": "메타버스 플랫폼 실시간 3D 콘텐츠 제작 (Blender, Unity)"
+   },
+   {
+    "date": "2024.06 – 2024.08",
+    "title": "에프엔이노에듀",
+    "desc": "AI 디지털교과서 평가문항 퍼블리싱"
+   }
+  ],
+  "award": [
+   {
+    "date": "2026.04",
+    "text": "청운대학교 개교 31주년 기념 공로상"
+   },
+   {
+    "date": "2025.11",
+    "text": "청운 창업아이디어 경진대회 장려상"
+   },
+   {
+    "date": "2025.10",
+    "text": "인천국제디자인페어 디자인버스킹 장려상"
+   },
+   {
+    "date": "2025",
+    "text": "인천국제디자인페어 예비디자이너전 출품 (Run:Beat 미추홀)"
+   },
+   {
+    "date": "2023.07",
+    "text": "커뮤니케이션디자인국제공모전 수상 (한국커뮤니케이션디자인협회)"
+   },
+   {
+    "date": "재학 중",
+    "text": "청운대학교 비교과 ‘역량왕’ 최우수상"
+   }
+  ],
+  "cert": [
+   {
+    "date": "2025.10",
+    "text": "Google AI Essentials"
+   },
+   {
+    "date": "2024.03",
+    "text": "TOEIC 670"
+   }
+  ],
+  "photo": {
+   "src": "/img/photo_v3.jpg",
+   "w": 600,
+   "h": 800
+  },
+  "site": ""
+ },
+ "works": [
+  {
+   "key": "rly",
+   "slug": "really-like-you",
+   "no": "01",
+   "title": "Really Like You",
+   "kind": "키네틱 타이포그래피 뮤직비디오",
+   "year": "2026",
+   "length": "31초",
+   "seconds": 31,
+   "tools": "After Effects, Premiere Pro",
+   "role": "개인 작업",
+   "text": [
+    "중간고사 과제로 만든 베이비몬스터 Really Like You 키네틱 타이포그래피 영상입니다.",
+    "콘셉트는 ‘Y2K & 하이틴 디지로그’. 아날로그 TV 노이즈와 SNS 인터페이스를 섞어서, 설레는 감정이 데이터처럼 전송되는 과정을 그렸습니다. 가사 주제가 메시지라서 메신저 창과 OS 창 구조를 기본 도형으로 잡았고, 랩의 강세에 맞춰 글자와 프레임이 튀어나오게 했습니다."
+   ],
+   "youtube": "tFbKGORbRDo",
+   "loop": "/media/rly.mp4",
+   "loopSm": "/media/rly-sm.mp4",
+   "poster": "/media/rly.jpg",
+   "hero": {
+    "src": "/img/rly_016_90.jpg",
+    "w": 1920,
+    "h": 1080
+   },
+   "palette": [
+    {
+     "hex": "#2253C3",
+     "name": "블루"
+    },
+    {
+     "hex": "#DDAC3C",
+     "name": "옐로우"
+    },
+    {
+     "hex": "#0F0F13",
+     "name": "블랙"
+    }
+   ],
+   "tech": [
+    "VR Chromatic Aberrations + Deep Glow로 CRT 색수차",
+    "CC Vignette·Exposure에 wiggle로 깜박임",
+    "Optics Compensation + Warp로 어안렌즈",
+    "전환에 Invert 1~2프레임",
+    "Duik Angela로 걷는 다리 리깅"
+   ],
+   "frames": [
+    {
+     "src": "/img/rlyp_10.jpg",
+     "w": 1280,
+     "h": 721
+    },
+    {
+     "src": "/img/rlyp_11.jpg",
+     "w": 1280,
+     "h": 721
+    },
+    {
+     "src": "/img/rlyp_07.jpg",
+     "w": 1280,
+     "h": 716
+    },
+    {
+     "src": "/img/rlyp_05.jpg",
+     "w": 1280,
+     "h": 711
+    }
+   ],
+   "pairs": [
+    {
+     "sketch": {
+      "src": "/img/sb_rly_r0c0.jpg",
+      "w": 355,
+      "h": 197
+     },
+     "final": {
+      "src": "/img/rlyp_22.jpg",
+      "w": 960,
+      "h": 519
+     },
+     "caption": "말하고 싶어 · CRT"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_rly_r0c1.jpg",
+      "w": 354,
+      "h": 197
+     },
+     "final": {
+      "src": "/img/rlyp_17.jpg",
+      "w": 960,
+      "h": 536
+     },
+     "caption": "BM · Exposure + Invert"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_rly_r0c2.jpg",
+      "w": 354,
+      "h": 197
+     },
+     "final": {
+      "src": "/img/rlyp_18.jpg",
+      "w": 960,
+      "h": 543
+     },
+     "caption": "타이틀 · Trim Path"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_rly_r0c3.jpg",
+      "w": 355,
+      "h": 197
+     },
+     "final": {
+      "src": "/img/rlyp_09.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "A-SA 사진 아치"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_rly_r1c1.jpg",
+      "w": 354,
+      "h": 197
+     },
+     "final": {
+      "src": "/img/rlyp_13.jpg",
+      "w": 960,
+      "h": 490
+     },
+     "caption": "오늘 너의 · 타이핑"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_rly_r1c2.jpg",
+      "w": 354,
+      "h": 197
+     },
+     "final": {
+      "src": "/img/rlyp_06.jpg",
+      "w": 960,
+      "h": 536
+     },
+     "caption": "허락해 · Blur"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_rly_r2c0.jpg",
+      "w": 355,
+      "h": 198
+     },
+     "final": {
+      "src": "/img/rly_x16_2.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "OK 표지판"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_rly_r2c1.jpg",
+      "w": 354,
+      "h": 198
+     },
+     "final": {
+      "src": "/img/rlyp_16.jpg",
+      "w": 960,
+      "h": 536
+     },
+     "caption": "Okay 말풍선"
+    }
+   ],
+   "pairsNote": "12컷 콘티를 먼저 그리고, 랩의 강세에 맞춰 컷마다 움직임을 정했습니다."
+  },
+  {
+   "key": "momentum",
+   "slug": "momentum",
+   "no": "02",
+   "title": "MOMENTUM",
+   "kind": "INDEF 20주년 모션그래픽",
+   "year": "2026",
+   "length": "38초",
+   "seconds": 38,
+   "tools": "HTML Canvas, WebGL (코드 기반 제작)",
+   "role": "개인 작업",
+   "text": [
+    "인천국제디자인페어(INDEF) 20주년 주제인 ‘스무 살’로 만든 모션그래픽입니다. 스무 살을, 지난 스무 해를 실처럼 감아 처음으로 혼자 돌기 시작한 팽이로 읽었습니다.",
+    "실이 감겨 팽이가 되고, 길이 너무 많아 혼란스러운 눈을 지나, 노을 속에서 힘이 다해 눕습니다. 그리고 바깥에서 온 실이 다시 감기며 일어섭니다. 장면은 페이드 없이 사물이 다른 사물로 변하며 이어지고, 원은 부드러운 회전, 사각형은 계단식 움직임으로 대비했습니다."
+   ],
+   "youtube": "X9LANvNMwuY",
+   "loop": "/media/momentum.mp4",
+   "loopSm": "/media/momentum-sm.mp4",
+   "poster": "/media/momentum.jpg",
+   "hero": {
+    "src": "/img/momentum_024_00.jpg",
+    "w": 1920,
+    "h": 1080
+   },
+   "frames": [
+    {
+     "src": "/img/mom_x1_0.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/momentum_012_80.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/mom_x16_0.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/momentum_033_80.jpg",
+     "w": 1280,
+     "h": 720
+    }
+   ],
+   "pairs": [
+    {
+     "sketch": {
+      "src": "/img/sb_mom_1c.jpg",
+      "w": 960,
+      "h": 594
+     },
+     "final": {
+      "src": "/img/mom_t003_0.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#1 실이 감기며 원 생성"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mom_2c.jpg",
+      "w": 960,
+      "h": 671
+     },
+     "final": {
+      "src": "/img/mom_x16_0.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "caption": "#2 회전"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mom_3c.jpg",
+      "w": 960,
+      "h": 621
+     },
+     "final": {
+      "src": "/img/mom_t010_0.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#3 착시 팽이"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mom_4c.jpg",
+      "w": 960,
+      "h": 713
+     },
+     "final": {
+      "src": "/img/mom_t015_5.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#4 만화경"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mom_5c.jpg",
+      "w": 960,
+      "h": 541
+     },
+     "final": {
+      "src": "/img/momentum_018_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#5 규칙과 기대를 보는 눈"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mom_6c.jpg",
+      "w": 926,
+      "h": 825
+     },
+     "final": {
+      "src": "/img/mom_t010_5.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#6 템포가 느려지는 팽이"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mom_7c.jpg",
+      "w": 960,
+      "h": 603
+     },
+     "final": {
+      "src": "/img/momentum_024_00.jpg",
+      "w": 1920,
+      "h": 1080
+     },
+     "caption": "#7 멈췄지만 다시 감는 끈"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mom_8c.jpg",
+      "w": 960,
+      "h": 676
+     },
+     "final": {
+      "src": "/img/momentum_033_80.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "caption": "#8 INDEF"
+    }
+   ],
+   "pairsNote": "손으로 그린 8컷 콘티에서 출발했습니다. 만들면서 순서와 연출이 바뀐 장면도 있습니다."
+  },
+  {
+   "key": "takeit",
+   "slug": "take-it",
+   "no": "03",
+   "title": "Take It",
+   "kind": "Unreal Engine 3D 애니메이션",
+   "year": "2026",
+   "length": "52초",
+   "seconds": 52,
+   "tools": "Unreal Engine, Blender",
+   "role": "캡스톤디자인, 개인 작업",
+   "text": [
+    "캡스톤디자인 수업에서 Unreal Engine으로 만든 3D 캐릭터 애니메이션입니다. 사막을 걷던 페넥여우가 선인장을 따라가 오아시스를 찾는 이야기입니다.",
+    "엔진 안에서 화면을 완성하는 과정을 처음부터 끝까지 직접 해 봤습니다."
+   ],
+   "youtube": "4laSX4w9JfY",
+   "loop": "/media/takeit.mp4",
+   "loopSm": "/media/takeit-sm.mp4",
+   "poster": "/media/takeit.jpg",
+   "hero": {
+    "src": "/img/takeit_037_00.jpg",
+    "w": 1920,
+    "h": 1080
+   },
+   "steps": [
+    "캐릭터 애니메이션을 엔진으로 임포트",
+    "노드 기반 머티리얼 제작 (젤리 선인장, 모래, 물)",
+    "라이팅",
+    "시퀀서로 카메라 연출",
+    "렌더 후 편집"
+   ],
+   "frames": [
+    {
+     "src": "/img/takeit_011_50.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/takeit_017_00.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/takeit_045_50.jpg",
+     "w": 1280,
+     "h": 720
+    }
+   ]
+  },
+  {
+   "key": "mukbit",
+   "slug": "mukbit",
+   "no": "04",
+   "title": "묵빛향연",
+   "kind": "프로젝션매핑",
+   "year": "2026",
+   "length": "2분 19초",
+   "seconds": 139,
+   "tools": "After Effects, Blender",
+   "role": "팀 작업, 영상 제작 대부분 담당",
+   "text": [
+    "한국 전통 오브제를 3D로 만들어 벽에 투사한 프로젝션매핑 영상입니다.",
+    "연꽃, 석상, 궁궐, 범종, 장신구를 흑백 위주로 보여 주다가 마지막에 색을 터뜨리는 순서로 구성했습니다."
+   ],
+   "youtube": "-ElSUmbb6MU",
+   "loop": "/media/mukbit.mp4",
+   "loopSm": "/media/mukbit-sm.mp4",
+   "poster": "/media/mukbit.jpg",
+   "hero": {
+    "src": "/img/mukbit_007_50.jpg",
+    "w": 1920,
+    "h": 1080
+   },
+   "frames": [
+    {
+     "src": "/img/mukbit_033_80.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/mukbit_047_50.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/mukbit_098_50.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/mukbit_130_00.jpg",
+     "w": 1280,
+     "h": 720
+    }
+   ]
+  },
+  {
+   "key": "dokkaebi",
+   "slug": "dokkaebi",
+   "no": "05",
+   "title": "도깨비",
+   "kind": "타이틀 시퀀스",
+   "year": "2025",
+   "length": "59초",
+   "seconds": 59,
+   "tools": "After Effects, Illustrator, Photoshop",
+   "role": "개인 작업",
+   "text": [
+    "VFX 기말과제로 만든 드라마 도깨비 타이틀 시퀀스입니다. 키워드는 불멸, 인연, 기억, 운명.",
+    "서로 다른 시공간에 있는 두 인물이 결국 하나로 이어진다는 걸 보여주려고 창, 문, 빛, 그림자 같은 경계의 요소로만 화면을 짰습니다. 인물은 모두 실루엣으로 두고, 장면 전환은 빛의 움직임을 따라 느리게 이어지도록 했습니다."
+   ],
+   "youtube": "kSZx9BNlOm0",
+   "loop": "/media/dokkaebi.mp4",
+   "loopSm": "/media/dokkaebi-sm.mp4",
+   "poster": "/media/dokkaebi.jpg",
+   "hero": {
+    "src": "/img/dokkaebi_024_00.jpg",
+    "w": 1920,
+    "h": 1080
+   },
+   "palette": [
+    {
+     "hex": "#1B2A4A",
+     "name": "딥 블루"
+    },
+    {
+     "hex": "#E9E9E6",
+     "name": "화이트"
+    },
+    {
+     "hex": "#A9AFB6",
+     "name": "실버"
+    },
+    {
+     "hex": "#3E6B5A",
+     "name": "그린"
+    },
+    {
+     "hex": "#C8322F",
+     "name": "레드"
+    }
+   ],
+   "frames": [
+    {
+     "src": "/img/dokkaebi_003_00.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/dokkaebi_016_50.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/dokkaebi_035_50.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/dokkaebi_041_00.jpg",
+     "w": 1280,
+     "h": 720
+    }
+   ],
+   "pairs": [
+    {
+     "sketch": {
+      "src": "/img/sb_dk_r0c0.jpg",
+      "w": 375,
+      "h": 209
+     },
+     "final": {
+      "src": "/img/dokkaebi_003_00.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "caption": "Scene 1 · 창에 빛이 든다"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_dk_r0c3.jpg",
+      "w": 378,
+      "h": 209
+     },
+     "final": {
+      "src": "/img/dokkaebi_016_50.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "caption": "Scene 4 · 문을 열고 나오는 도깨비"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_dk_r1c1.jpg",
+      "w": 377,
+      "h": 210
+     },
+     "final": {
+      "src": "/img/dokkaebi_024_00.jpg",
+      "w": 1920,
+      "h": 1080
+     },
+     "caption": "Scene 7 · 바닷가의 두 사람"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_dk_r1c3.jpg",
+      "w": 378,
+      "h": 210
+     },
+     "final": {
+      "src": "/img/dokkaebi_032_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "Scene 8 · 뒤로 넘어가는 배경"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_dk_r2c0.jpg",
+      "w": 375,
+      "h": 210
+     },
+     "final": {
+      "src": "/img/dokkaebi_046_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "Scene 9 · 저승사자의 실루엣"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_dk_r2c1.jpg",
+      "w": 377,
+      "h": 210
+     },
+     "final": {
+      "src": "/img/dokkaebi_041_00.jpg",
+      "w": 1280,
+      "h": 720
+     },
+     "caption": "Scene 10 · 창을 지나며 바뀌는 모습"
+    }
+   ],
+   "pairsNote": "13개 장면을 프레임 단위로 나눈 장면표를 먼저 만들고, 장면마다 빛이 들어오는 방향을 콘티로 정했습니다."
+  },
+  {
+   "key": "michu",
+   "slug": "run-beat-michuhol",
+   "no": "06",
+   "title": "Run:Beat 미추홀",
+   "kind": "미추홀구 홍보영상",
+   "year": "2025",
+   "length": "3분 54초",
+   "seconds": 234,
+   "tools": "Premiere Pro, After Effects",
+   "role": "4인 팀 팀장",
+   "text": [
+    "‘새로운 변화, 함께 뛰는 미추홀구’라는 슬로건으로 만든 미추홀구 홍보 브랜드 필름입니다. 청년들이 미추홀구의 명소를 뛰며(Run) 멈춰 가던 동네의 심장을 다시 뛰게(Beat) 한다는 이야기입니다.",
+    "4인 팀의 팀장이었습니다. 촬영 기간이 짧아서 동선을 기준으로 인원을 나누고 직접 뛰어다니며 찍었습니다. 인천국제디자인페어 예비디자이너전에 출품했습니다."
+   ],
+   "youtube": "Go0UIY3Uka8",
+   "loop": "/media/michu.mp4",
+   "loopSm": "/media/michu-sm.mp4",
+   "poster": "/media/michu.jpg",
+   "hero": {
+    "src": "/img/michu_016_60.jpg",
+    "w": 1920,
+    "h": 1080
+   },
+   "frames": [
+    {
+     "src": "/img/michu_028_00.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/michu_055_00.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/michu_092_00.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/michu_138_00.jpg",
+     "w": 1280,
+     "h": 720
+    }
+   ],
+   "sheets": [
+    {
+     "src": "/img/sb_michu_05-c40-132-985-1380.jpg",
+     "w": 900,
+     "h": 1189
+    },
+    {
+     "src": "/img/sb_michu_04-c40-132-985-1380.jpg",
+     "w": 900,
+     "h": 1189
+    },
+    {
+     "src": "/img/sb_michu_03-c40-132-985-1380.jpg",
+     "w": 900,
+     "h": 1189
+    }
+   ],
+   "sheetsNote": "콘티를 손으로 먼저 그렸습니다. 심박수 숫자가 내려가는 오프닝, 땅을 짚는 손과 신발끈의 매치컷, 향교 문고리에서 기타 울림구멍으로 넘어가는 원형 매치컷까지의 구간입니다."
+  },
+  {
+   "key": "mhga",
+   "slug": "make-human-great-again",
+   "no": "07",
+   "title": "Make Human Great Again",
+   "kind": "SpaceX 브랜드 모션그래픽",
+   "year": "2024",
+   "length": "1분 17초",
+   "seconds": 77,
+   "tools": "After Effects, Photoshop",
+   "role": "개인 작업",
+   "text": [
+    "SpaceX를 ‘인류의 대단원을 써 내려갈 기업’으로 소개하는 브랜드 모션그래픽입니다. 불, 종이, 문자, 증기기관처럼 인류의 유레카 순간을 차례로 지나 SpaceX로 이어지게 구성했습니다. 톤은 새벽 밤의 블루와 블랙, 포인트는 핑크입니다."
+   ],
+   "youtube": "xIoQ6G2nlMw",
+   "loop": "/media/mhga.mp4",
+   "loopSm": "/media/mhga-sm.mp4",
+   "poster": "/media/mhga.jpg",
+   "hero": {
+    "src": "/img/mhga_029_50.jpg",
+    "w": 1920,
+    "h": 1080
+   },
+   "frames": [],
+   "pairs": [
+    {
+     "sketch": {
+      "src": "/img/sb_mhga_1.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "final": {
+      "src": "/img/mhga_003_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#1 유성이 떨어지는 하늘"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mhga_2.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "final": {
+      "src": "/img/mhga_009_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#2 원시"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mhga_3.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "final": {
+      "src": "/img/mhga_017_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#3 불의 발견"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mhga_4.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "final": {
+      "src": "/img/mhga_025_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#4 종이의 발명"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mhga_5.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "final": {
+      "src": "/img/mhga_029_50.jpg",
+      "w": 1920,
+      "h": 1080
+     },
+     "caption": "#5 문자의 발명"
+    },
+    {
+     "sketch": {
+      "src": "/img/sb_mhga_6.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "final": {
+      "src": "/img/mhga_037_00.jpg",
+      "w": 960,
+      "h": 540
+     },
+     "caption": "#6 증기기관"
+    }
+   ],
+   "pairsNote": "장면마다 흑백 러프를 먼저 그려 구도와 빛의 위치를 잡았습니다."
+  },
+  {
+   "key": "therapy",
+   "slug": "media-therapy",
+   "no": "08",
+   "title": "미디어테라피 오프닝",
+   "kind": "오프닝 타이틀",
+   "year": "2026",
+   "length": "3초",
+   "seconds": 3,
+   "tools": "After Effects, Illustrator",
+   "role": "주안영상미디어센터 인턴 업무",
+   "text": [
+    "미디어테라피 양성교육과정 아카이브 영상의 오프닝입니다. 구름 안에서 글자가 하나씩 튀어 오릅니다."
+   ],
+   "youtube": "W18O1OS0qWA",
+   "loop": "/media/therapy.mp4",
+   "loopSm": "/media/therapy-sm.mp4",
+   "poster": "/media/therapy.jpg",
+   "hero": {
+    "src": "/img/therapy_002_80.jpg",
+    "w": 1920,
+    "h": 1080
+   },
+   "frames": [
+    {
+     "src": "/img/therapy_000_50.jpg",
+     "w": 1280,
+     "h": 720
+    },
+    {
+     "src": "/img/therapy_001_50.jpg",
+     "w": 1280,
+     "h": 720
+    }
+   ]
+  }
+ ],
+ "showreel": {
+  "youtube": "h_p1lr5Bv1g",
+  "loop": "/media/showreel.mp4",
+  "poster": "/media/showreel.jpg",
+  "length": "1:00",
+  "seconds": 60
+ }
+}
