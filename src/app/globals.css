@@ -2,12 +2,12 @@
 
 /* ===== 토큰 (Design.md) ===== */
 :root {
-  --bg: #111112;
-  --surface: #18181a;
-  --line: #2b2b2e;
+  --bg: #1f2023;
+  --surface: #27282c;
+  --line: #36373c;
   --ink: #f2f2f0;
   --ink2: #b9b9b6;
-  --dim: #77777a;
+  --dim: #8b8c90;
   --accent: #ff4d1f;
   --accent-deep: #e8431a;
   /* After Effects 속도 그래프식 비대칭 베지어 */
@@ -99,7 +99,7 @@ button { font: inherit; color: inherit; }
   transition: background-color 0.45s var(--ease-swoosh), border-color 0.45s var(--ease-swoosh);
   border-bottom: 1px solid transparent;
 }
-.hdr.is-scrolled { background: #111112d0; border-color: var(--line); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+.hdr.is-scrolled { background: #1f2023d0; border-color: var(--line); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
 .hdr-in { height: 100%; display: flex; align-items: center; justify-content: space-between; }
 .hdr-logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
 .hdr-mark { width: 2px; height: 18px; background: var(--accent); transition: transform 0.45s var(--ease-punch); }
@@ -258,7 +258,7 @@ button { font: inherit; color: inherit; }
 /* ===== 고정 타임라인 ===== */
 .tl {
   position: fixed; inset: auto 0 0; z-index: 40; height: var(--tl-h);
-  background: #111112d6; border-top: 1px solid var(--line); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  background: #1f2023d6; border-top: 1px solid var(--line); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
   transform: translateY(101%); transition: transform 0.6s var(--ease-swoosh);
 }
 .tl.is-on { transform: none; }
@@ -268,15 +268,15 @@ button { font: inherit; color: inherit; }
 .tl-lbl { color: var(--ink2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .tl-track { position: relative; flex: 1; height: 24px; }
 .tl-seg { position: absolute; top: 0; bottom: 0; padding: 0; background: none; border: 0; cursor: pointer; }
-.tl-seg i { position: absolute; left: 1px; right: 1px; top: 50%; height: 4px; margin-top: -2px; background: #2e2e31; transition: background-color 0.35s var(--ease-punch), transform 0.35s var(--ease-punch); }
-.tl-seg.is-mark i { background: #232326; }
+.tl-seg i { position: absolute; left: 1px; right: 1px; top: 50%; height: 4px; margin-top: -2px; background: #3b3c41; transition: background-color 0.35s var(--ease-punch), transform 0.35s var(--ease-punch); }
+.tl-seg.is-mark i { background: #2e2f33; }
 .tl-seg:hover i { background: var(--ink2); transform: scaleY(1.6); }
 .tl-seg.is-cur i { background: #8d8d8a; }
 .tl-ph { position: absolute; top: 2px; bottom: 2px; width: 2px; margin-left: -1px; background: var(--accent); pointer-events: none; }
 .tl-total { font-size: 12px; color: var(--dim); flex: none; }
 
 /* ===== 영상 창 ===== */
-.vmodal { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 56px 4vw; background: #0a0a0be6; opacity: 0; transition: opacity 0.45s var(--ease-swoosh); }
+.vmodal { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 56px 4vw; background: #161719e6; opacity: 0; transition: opacity 0.45s var(--ease-swoosh); }
 .vmodal.is-on { opacity: 1; }
 .vmodal-in { width: min(1400px, 100%, calc((100vh - 150px) * 16 / 9)); transform: translateY(24px) scale(0.965); transition: transform 0.7s var(--ease-swoosh); }
 .vmodal.is-on .vmodal-in { transform: none; }
@@ -340,7 +340,7 @@ button { font: inherit; color: inherit; }
 .sg-cap .mono { font-size: 11px; color: #ffffffb0; }
 .sg-cap-t { opacity: 0; transform: translateY(6px); transition: opacity 0.4s var(--ease-punch), transform 0.5s var(--ease-punch); }
 .sg-tile:hover .sg-cap-t, .sg-tile:focus-visible .sg-cap-t { opacity: 1; transform: none; }
-.sg-badge { position: absolute; left: 12px; top: 11px; padding: 3px 7px; border-radius: 2px; background: #111112b8; color: #ffffffcc; font-size: 10px; letter-spacing: 0.06em; pointer-events: none; }
+.sg-badge { position: absolute; left: 12px; top: 11px; padding: 3px 7px; border-radius: 2px; background: #1f2023b8; color: #ffffffcc; font-size: 10px; letter-spacing: 0.06em; pointer-events: none; }
 .sg-pip {
   position: absolute; right: 10px; bottom: 10px; width: 36%; max-width: 240px; aspect-ratio: 16 / 9;
   background: #fff; border-radius: 3px; box-shadow: 0 10px 30px #0000008c; overflow: hidden; pointer-events: none;
@@ -355,7 +355,7 @@ button { font: inherit; color: inherit; }
 .sg-sheet img { width: 100%; height: auto; }
 
 /* 크게 보기 */
-.lb { position: fixed; inset: 0; z-index: 100; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 64px clamp(16px, 6vw, 96px) 40px; background: #0a0a0bf2; opacity: 0; transition: opacity 0.4s var(--ease-swoosh); }
+.lb { position: fixed; inset: 0; z-index: 100; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 64px clamp(16px, 6vw, 96px) 40px; background: #161719f2; opacity: 0; transition: opacity 0.4s var(--ease-swoosh); }
 .lb.is-on { opacity: 1; }
 .lb-bar { position: absolute; left: clamp(16px, 3vw, 40px); right: clamp(16px, 3vw, 40px); top: 18px; display: flex; justify-content: space-between; font-size: 12.5px; color: var(--ink2); }
 .lb-bar button { background: none; border: 0; cursor: pointer; color: var(--ink2); font-size: 13px; }
@@ -368,7 +368,7 @@ button { font: inherit; color: inherit; }
 .lb-sketch { position: absolute; right: 14px; bottom: 14px; width: min(28%, 300px); padding: 6px 6px 7px; background: #fff; border-radius: 3px; box-shadow: 0 12px 36px #000000a0; }
 .lb-sketch .mono { display: block; margin: 0 2px 5px; font-size: 9.5px; letter-spacing: 0.06em; color: #555; }
 .lb-sketch img { width: 100%; height: auto; }
-.lb-nav { position: absolute; top: 50%; width: 48px; height: 48px; margin-top: -24px; border: 1px solid #ffffff38; border-radius: 50%; background: #11111299; color: var(--ink); font-size: 18px; cursor: pointer; transition: background-color 0.35s var(--ease-punch), border-color 0.35s var(--ease-punch); }
+.lb-nav { position: absolute; top: 50%; width: 48px; height: 48px; margin-top: -24px; border: 1px solid #ffffff38; border-radius: 50%; background: #1f202399; color: var(--ink); font-size: 18px; cursor: pointer; transition: background-color 0.35s var(--ease-punch), border-color 0.35s var(--ease-punch); }
 .lb-nav:hover { background: var(--accent); border-color: var(--accent); }
 .lb-prev { left: clamp(8px, 2vw, 28px); }
 .lb-next { right: clamp(8px, 2vw, 28px); }
