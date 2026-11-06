@@ -24,6 +24,8 @@
   var last = null;
   function vm(){ return document.querySelector('.vm'); }
   function open(id, title, from){
+    // 파일을 더블클릭해서 연 경우(file://)엔 YouTube가 임베드를 막음(오류 153) → 새 탭으로
+    if (location.protocol === 'file:') { window.open('https://www.youtube.com/watch?v=' + id, '_blank', 'noopener'); return; }
     var m = vm(), f = m.querySelector('.vm-f');
     last = from;
     f.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + id +
